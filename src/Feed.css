@@ -1,0 +1,93 @@
+.feed {
+    display: flex;
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .post {
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    padding: 12px;
+  }
+  
+  .post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .post-header img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .post-header span {
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  
+  .post-image {
+    width: 750px;
+    height: 450px;
+    margin-bottom: 10px;
+  }
+  
+  .post-comments {
+    margin-bottom: 5px;
+  }
+  
+  .caption {
+    font-weight: bold;
+  }
+  
+  .comment {
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .comment-username {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .comment-text {
+    font-size: 0.9rem;
+  }
+  
+  .add-comment {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .add-comment input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 8px;
+  }
+  
+  .add-comment button {
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-comment button:hover {
+    background-color: #1877d4;
+  }
+  
+  /* Additional styles as needed */
+  

@@ -1,0 +1,29 @@
+.stories {
+    display: flex;
+    padding: 8px;
+    overflow-x: auto;
+    border-bottom: 1px solid #dbdbdb;
+  }
+  
+  .story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 12px;
+  }
+  
+  .story img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ff8c00;
+  }
+  
+  .story span {
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  
+  /* Additional styles as needed */
+  
